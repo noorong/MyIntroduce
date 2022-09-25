@@ -1,0 +1,75 @@
+.header {
+    background-color: grey;
+}
+.nav {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+
+    padding: 15px;
+}
+.nav li a {
+    color: white;
+    text-decoration: none;
+
+    margin-right: 20px;
+}
+.nav li a:hover {
+    background-color: darkgrey;
+    letter-spacing: 4px;
+
+    transition-duration: 0.5s;
+}
+.profile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding: 20px;
+
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.profile h1 {
+    width: 100%;
+}
+.profile_img {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.profile_img img {
+    width: 100%;
+    height: 100%;
+}
+.profile_img img:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+.detail {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 20px;
+    margin-top: 30px;
+
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.section {
+    width: 40%;
+    flex-grow: 1; 
+}
+.section > h4,
+.section > p {
+    display: inline;
+}
+.footer {
+    background-color: rgb(224, 224, 224);
+
+    line-height: 20%;
+
+    margin-top: 30px;
+    padding: 10px 10px 10px 40px;
+}
